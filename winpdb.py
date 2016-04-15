@@ -298,7 +298,7 @@ import rpdb2
 
 
 
-if 'wx' not in sys.modules and 'wxPython' not in sys.modules:
+if 'wx' not in sys.modules: # and 'wxPython' not in sys.modules: # no longer applicable for wxpython 3.x
     try:
         import wxversion   
         wxversion.ensureMinimal(WXVER)
