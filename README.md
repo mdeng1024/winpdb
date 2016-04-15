@@ -16,9 +16,12 @@ This is a fork of the original *Winpdb* project with some modification to get it
 
 ``` ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 
-Then run the following to install the *wxPython*:
+Then run the following to install the *pthone* (if not installed) and *wxPython*:
 
-``` brew install wxpython ```
+``` 
+brew install python
+brew install wxpython 
+```
 
 Checkout the *winpdb* source code and change into the source location, run following to install:
 
