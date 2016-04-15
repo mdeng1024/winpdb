@@ -41,7 +41,7 @@ Checkout the *winpdb* source code and change into the source location, run follo
 
     Start the debugged script using:
 
-        rpdb1 -d <script.py> arg1 arg2
+        rpdb2 -d <script.py> arg1 arg2
 
     Then from the *winpdb* GUI menu select File -> Attach to attach to the running script to start debuging.
 
